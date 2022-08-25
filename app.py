@@ -7,7 +7,7 @@ from website.controllers import website_bp
 
 
 app = Flask(__name__)
-app.secret_key = 'SEGREDO-TOTAL'
+app.secret_key = 'PALAVRA-CHAVE'
 
 app.register_blueprint(website_bp)
 app.register_blueprint(admin_bp, url_prefix='/admin')
